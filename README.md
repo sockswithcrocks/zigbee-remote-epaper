@@ -65,18 +65,20 @@ Display content is driven entirely by Home Assistant.
 Core components:
 
 - ESP32-C6-WROOM-1-N8
-- Waveshare e-paper display
-- Waveshare IO expander (buttons)
+- Waveshare 2.7" e-paper display
+- Waveshare MCP23017 IO expander (buttons)
 - Touchpad 5 Click (SQI5550)
 
 Planned / not finalized:
 
-- I2C gyro (wake / sleep handling)
-- I2C microphone
+- I2C gyro (wake / sleep handling) - LIS3DH
+- I2C microphone - INMP441
 
 ## Power
 
 - Battery powered
+- MAX17048 Lipoly/Liion Gauge
+- TPS6302x Power Management IC
 - Deep sleep enabled
 - Wake-up via:
   - Button press
